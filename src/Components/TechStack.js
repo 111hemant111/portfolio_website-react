@@ -32,7 +32,7 @@ import { ReactComponent as SassLogo } from './svg/sass.svg'
 import ReactTooltip from 'react-tooltip';
 
 
-const mobileSize = window.matchMedia('(min-width: 800px)');
+const mobileSize = window.matchMedia('(min-width: 200px)');
 
 const styles = {
   container: isRowBased => ({
@@ -52,7 +52,6 @@ const styles = {
 
 const TechStack = () => {  
 const [matches, setMatches] = useState(mobileSize.matches);
-console.log(matches);
   // useEffect(() => {
   //   const handler = e => setMatches(e.matches);
   //   mobileSize.addListener(handler);
