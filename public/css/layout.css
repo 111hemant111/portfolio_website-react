@@ -853,6 +853,11 @@ call-to-action .button {
    text-align: -webkit-center;
    margin-bottom: 30px;
 }
+
+#contact_subhead {
+   text-align: -webkit-center;
+}
+
 #contact .section-head { margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: #11ABB0; }
@@ -885,7 +890,6 @@ call-to-action .button {
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
-   padding-top: 2%;
 }
 #contact .header-col { padding-top: 6px; }
 

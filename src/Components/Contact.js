@@ -33,13 +33,13 @@ const Contact = ({ data }) => {
         <div className="twelve columns header-col">
           <h2 id="contact_head">Get In Touch.</h2>
         </div>
-          <div className="two columns header-col">
+          {/* <div className="two columns header-col">
             <h1>
               <span>Get In Touch.</span>
             </h1>
-          </div>
+          </div> */}
 
-          <div className="ten columns">
+          <div id="contact_subhead" className="twelve columns">
             <p className="lead">{contactMessage}</p>
           </div>
       </div>
