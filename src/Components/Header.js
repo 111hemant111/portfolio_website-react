@@ -11,7 +11,7 @@ const Header = ({ data }) => {
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          <a target="_blank" href={network.url}>
             <i className={network.className}></i>
           </a>
         </li>
@@ -47,6 +47,11 @@ const Header = ({ data }) => {
           </li>
           <li>
             <a className="smoothscroll" href="#portfolio">
+              Projects
+            </a>
+          </li>
+          <li>
+            <a className="smoothscroll" href="#skills">
               Skills
             </a>
           </li>

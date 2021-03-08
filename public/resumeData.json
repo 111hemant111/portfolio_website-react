@@ -49,7 +49,7 @@
         "graduated": "Nov 2018"
       },
       {
-        "school": "G. Pullaiah Colege of Engineering and Technology, Kurnool, AP, India",
+        "school": "G. Pullaiah Colege of Engg. and Tech., Kurnool, AP, India",
         "degree": "Bachelor of Technology, ECE",
         "graduated": "July 2017"
       }
@@ -68,12 +68,12 @@
           {
             "id": "2.",
             "projname": "Data Migration between systems",
-            "exp":"Responsible for building a JS-based web application for Data Migration from a legacy business system to a new system."
+            "exp":"Responsible for building a JS-based web application for Data Migration from a legacy business system to a new system. Also responsible for troubleshooting and monitoring project."
           },
           {
             "id": "3.",
             "projname": "Performance Engineering Project for Black Friday",
-            "exp":"Worked on a Performance Engineering and Testing project for Business. Responsible for developing jMeter scripts in JavaScript, troubleshooting and monitoring project progress &c."
+            "exp":"Worked on a Performance Engineering and Testing project for Business. Responsible for developing jMeter scripts in JavaScript, troubleshooting and monitoring project &c."
           }
       ]
       },
@@ -85,7 +85,7 @@
           {
             "id": "",
             "projname": "",
-            "exp":"Worked as a Senior Developer for MC, an NY-based startup aimed at developing a Smartphone App/Platform for artists to collaborate live. Responsible for developing a React-based Admin Dashboard and tracking and monitoring the React Native-based Mobile App Development (Code reviews, PRs, Project Planning &c"
+            "exp":"Worked as a Senior Developer for MC, an NY-based startup aimed at developing a Smartphone App/Platform for artists to collaborate live. Responsible for developing a React-based Admin Dashboard and tracking and monitoring the React Native-based Mobile App Development (Code reviews, PRs, Project Planning &c."
           }
       ]
       },
@@ -97,7 +97,7 @@
           {
             "id": "",
             "projname": "",
-            "exp":"Taught C/C++ to students of 12-17 age, programmed robots based on Arduino platform, developed games based on Python, OpenCV &c"
+            "exp":"Taught C/C++ to students of 12-17 age, programmed robots based on Arduino platform, developed games based on Python, OpenCV &c."
           }
       ]
       }
@@ -128,22 +128,40 @@
   "portfolio": {
     "projects": [
       {
-        "title": "",
-        "category": "",
-        "image": "snapchat.jpg",
-        "url": ""
+        "title": "React-based Portfolio Website",
+        "category": "React",
+        "image": "portfolio_website-react.jpg",
+        "url": "https://github.com/111hemant111/portfolio_website-react"
       },
       {
-        "title": "",
-        "category": "",
-        "image": "gmail.jpg",
-        "url": ""
+        "title": "Interactive Webform",
+        "category": "JavaScript, jQuery",
+        "image": "interactive_webform.jpg",
+        "url": "https://github.com/111hemant111/interactive_webform"
       },
       {
-        "title": "",
-        "category": "",
-        "image": "linkedin.jpg",
-        "url": ""
+        "title": "'Confusion' Restaurant Web App",
+        "category": "React",
+        "image": "ristorante_confusion.jpg",
+        "url": "https://github.com/111hemant111/confusion-react"
+      },
+      {
+        "title": "Pagination & Filtering",
+        "category": "JavaScript, jQuery",
+        "image": "pagination_and_filtering.jpg",
+        "url": "https://github.com/111hemant111/pagination_and_filtering"
+      },
+      {
+        "title": "Random Quote Generator",
+        "category": "JavaScript, jQuery",
+        "image": "random_quote_generator.jpg",
+        "url": "https://github.com/111hemant111/random_quote_generator"
+      },
+      {
+        "title": "IoT-based Robotic Arm for disabled",
+        "category": "C/C++, Python",
+        "image": "robot_handicapped.jpg",
+        "url": "https://github.com/111hemant111/robotic_arm_for_disabled"
       }
     ]
   },
