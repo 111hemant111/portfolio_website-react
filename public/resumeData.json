@@ -5,7 +5,7 @@
     "description": "I eat, sleep and breathe JavaScript.",
     "additional": "And yes, I clicked that pic --->",
     "image": "profilepic.JPG",
-    "bio": "Hi there! I am Hemant! I've been coding for over 10 years now since my high school. I am a passionate coder with 2 years of professional experience in design and development of Websites and Web Applications. With the experience of working for a large corporation, a startup, and as a freelance web developer, I am armed with an extensive understanding of SDLC on various levels in JavaScript ecosystem.",
+    "bio": "Hi there! I am Hemant! I've been coding for over 10 years now since my high school. I am a passionate coder with 2 years of professional experience in design and development of websites and web applications. With the experience of working for a large corporation, a startup, and as a freelance web developer, I am armed with an extensive understanding of SDLC on various levels in JavaScript ecosystem with special focus on MERN stack.",
     "contactmessage": "Get in touch with me by filling this form!",
     "email": "111hemant111@gmail.com",
     "phone": "+1 (343) 333-9116",
@@ -63,12 +63,12 @@
           {
             "id": "1.",
             "projname": "Connected Retail",
-            "exp":"Built software components for an IoT solution “Connected Retail 360” aimed at bringing online shopping experience to physical stores based on Azure IoT Best Practices. Responsible for architecting the project, DPS, developing the React-based Web Dashboard, building C/C++ software for IoT devices and tracking the project."
+            "exp":"Built software components for an IoT solution “Connected Retail 360” aimed at bringing online shopping experience to physical stores based on Azure IoT Best Practices. Responsible for architecting the project, DPS, developing the React-based Web Dashboard, building C/C++ software for IoT devices and project tracking."
           },
           {
             "id": "2.",
-            "projname": "Data Migration between systems",
-            "exp":"Responsible for building a JS-based web application for Data Migration from a legacy business system to a new system. Also responsible for troubleshooting and monitoring project."
+            "projname": "Data Migration between systems (Subproject)",
+            "exp":"Responsible for building a JS-based web application as a minor aspect of a larger Data Migration project for a legacy business system. Also responsible for troubleshooting and monitoring project."
           },
           {
             "id": "3.",
@@ -85,7 +85,7 @@
           {
             "id": "",
             "projname": "",
-            "exp":"Worked as a Senior Developer for MC, an NY-based startup aimed at developing a Smartphone App/Platform for artists to collaborate live. Responsible for developing a React-based Admin Dashboard and tracking and monitoring the React Native-based Mobile App Development (Code reviews, PRs, Project Planning &c."
+            "exp":"Worked as a Senior Developer for MC, an NY-based startup aimed at developing a Smartphone App/Platform for artists to collaborate live. Responsible for developing a React-based Admin Dashboard and tracking and monitoring the React Native-based Mobile App Development (Code reviews, PRs, Project Planning &c.)"
           }
       ]
       },

@@ -1,5 +1,24 @@
 import React from "react";
 
+var freelance = () => {
+  return (
+    <div>
+      <h3>Remote Freelance Web Developer</h3>
+      <p className="desig"> Freelance Developer <span>&bull;</span> <em className="date">Apr 2019 - Jul 2020</em></p>
+      <div>
+        <p className="info">Currently working on a React-based Web Application called “Word Of Advice” for Health/Workout Assistance for a client - Based on MERN stack<br/>
+          Built websites for clients using Wordpress.org CMS, Javascript, jQuery, Bootstrap, MySQL DB and PHP Back-end. Client Wordpress.org websites built:
+        </p>
+        <p className="info">
+          1. <a target="_blank" href="https://nacptpharmacollege.com">NACPT Pharma College</a><br/>
+          2. <a target="_blank" href="https://thelightinglamp.com">The Lighting Lamp</a><br/>
+          3. <a target="_blank" href="https://50hands.org">50Hands</a> and more.
+        </p>
+      </div>
+    </div>
+  );
+}
+
 const Resume = ({ data }) => {
   if (data) {
     var skillmessage = data.skillmessage;
@@ -35,6 +54,23 @@ const Resume = ({ data }) => {
         </div>
       );
     });
+    // function set(){
+    //   return (
+    //     <div>
+    //       <h3>Remote</h3>
+    //       <p className="desig"> Freelance Developer <span>&bull;</span> <em className="date">Apr 2019 - Jul 2020</em></p>
+    //       <div>
+    //         <p>Currently developing a React-based Web Application called “Word Of Advice” for Health/Workout Assistance for a client - Based on MERN stack</p>
+    //         <p>Built websites for clients using Wordpress.org CMS, Javascript, jQuery, Bootstrap, MySQL DB and PHP Back-end. Client Wordpress.org websites built:</p>
+    //         <p>1. <a target="_blank" href="https://nacptpharmacollege.com">NACPT Pharma Colleg</a></p>
+    //         <p>2. <a target="_blank" href="https://thelightinglamp.com">The Lighting Lamp</a></p>
+    //         <p>3. <a target="_blank" href="https://50hands.org">50Hands</a>and more.</p>
+    //       </div>
+    //     </div>
+    //   );
+    // };
+    // var freelance_work = set();
+    
     var skills = data.skills.map(function (skills) {
       var className = "bar-expand " + skills.name.toLowerCase();
       return (
@@ -74,8 +110,7 @@ const Resume = ({ data }) => {
             <span>Work</span>
           </h1>
         </div>
-
-        <div className="ten columns main-col">{work}</div>
+        <div className="ten columns main-col">{work}{freelance()}</div>
       </div>
     </section>
   );

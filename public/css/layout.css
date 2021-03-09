@@ -282,7 +282,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .info {
    font: 16px/24px;
    color: #363636;
-   margin-bottom: 35px;
+   /* margin-bottom: 35px; */
    margin-top: 9px;
    font-weight: 500;
 }
@@ -294,7 +294,7 @@ ul#nav li.current a { color: #F06000; }
    font-weight: 700;
 }
 #resume .sub_li{
-   font-size: 22px;
+   font-size: 18px;
    color: #0f0f0f;
    line-height: 20px;
    margin-bottom: 12px;
