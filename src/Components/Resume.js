@@ -4,13 +4,11 @@ var freelance = () => {
   return (
     <div>
       <h3>Remote Freelance Web Developer</h3>
-      <p className="desig"> Freelance Developer <span>&bull;</span> <em className="date">Apr 2019 - Jul 2020</em></p>
+      <p className="desig"> Freelance Developer</p>
       <div>
         <p className="info">Currently working on a React-based Web Application called “Word Of Advice” for Health/Workout Assistance for a client - Based on MERN stack<br/>
-          Built websites for clients using Wordpress.org CMS, Javascript, jQuery, Bootstrap, MySQL DB and PHP Back-end. Client Wordpress.org websites built:
-        </p>
-        <p className="info">
-          1. <a target="_blank" href="https://nacptpharmacollege.com">NACPT Pharma College</a><br/>
+          Built websites for clients using Wordpress.org CMS, Javascript, jQuery, Bootstrap, MySQL DB and PHP Back-end. Client Wordpress.org websites built:<br/>
+          1. <a target="_blank" href="https://nacptpharmacollege.com">NACPT Pharma College</a> (<a target="_blank" href="https://v2.nacptpharmacollege.com/">v2</a> under development)<br/>
           2. <a target="_blank" href="https://thelightinglamp.com">The Lighting Lamp</a><br/>
           3. <a target="_blank" href="https://50hands.org">50Hands</a> and more.
         </p>
