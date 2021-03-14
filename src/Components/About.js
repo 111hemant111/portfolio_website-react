@@ -40,15 +40,15 @@ const About = ({ data }) => {
                   {city} {state}, {zip}
                 </span>
                 <br />
-                <span>{phone}</span>
+                <span><a href="tel: +1 (343) 333-9116">+1 (343) 333-9116</a></span>
                 <br />
-                <span>{email}</span>
+                <span><a target="_blank" href="mailto: 111hemant111@gmail.com">111hemant111@gmail.com</a></span>
               </p>
             </div>
             <div className="columns download">
               <p>
                 <a target="_blank" href={resumeDownload} className="button">
-                  <i className="fa fa-download"></i>Download Resume
+                  <i className="fa fa-download"></i>My Resume
                 </a>
               </p>
             </div>

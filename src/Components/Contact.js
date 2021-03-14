@@ -126,13 +126,10 @@ const Contact = ({ data }) => {
             <p className="address">
               {contactName}
               <br />
-              {contactEmail}
-              <br />
-              <br />
               {street} <br />
               {city}, {state} {zip}
               <br />
-              <span>{phone}</span>
+              <span><a href="tel: +1 (343) 333-9116">+1 (343) 333-9116</a></span>
             </p>
           </div>
         </aside>
