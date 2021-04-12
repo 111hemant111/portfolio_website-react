@@ -11,7 +11,7 @@ const About = ({ data }) => {
     var zip = data.address.zip;
     var phone = data.phone;
     var email = data.email;
-    var resumeDownload = "resources/" + data.resumedownload;
+    // var resumeDownload = "resources/" + data.resumedownload;
   }
 
   return (
@@ -40,18 +40,18 @@ const About = ({ data }) => {
                   {city} {state}, {zip}
                 </span>
                 <br />
-                <span><a href="tel: +1 (343) 333-9116">+1 (343) 333-9116</a></span>
+                <span><a href="tel: +1 (343) 333-9116">{phone}</a></span>
                 <br />
-                <span><a target="_blank" href="mailto: 111hemant111@gmail.com">111hemant111@gmail.com</a></span>
+                <span><a target="_blank" rel="noreferrer" href="mailto: 111hemant111@gmail.com">{email}</a></span>
               </p>
             </div>
-            <div className="columns download">
+            {/* <div className="columns download">
               <p>
                 <a target="_blank" href={resumeDownload} className="button">
                   <i className="fa fa-download"></i>My Resume
                 </a>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

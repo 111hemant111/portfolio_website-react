@@ -129,7 +129,7 @@ const Contact = ({ data }) => {
               {street} <br />
               {city}, {state} {zip}
               <br />
-              <span><a href="tel: +1 (343) 333-9116">+1 (343) 333-9116</a></span>
+              <span><a href="tel: +1 (343) 333-9116">{phone}</a></span>
             </p>
           </div>
         </aside>

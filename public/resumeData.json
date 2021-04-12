@@ -1,11 +1,11 @@
 {
   "main": {
     "name": "Hemant Kuruva",
-    "occupation": "Front-End Developer",
-    "description": "I eat, sleep and breathe JavaScript.",
-    "additional": "And yes, I clicked that pic --->",
+    "occupation": "Web Developer",
+    "description": "I eat, sleep and breathe JavaScript (...and its libraries and frameworks).",
+    "additional": "And yes, I clicked that pic. --->",
     "image": "profilepic.JPG",
-    "bio": "Hi there! I am Hemant! I've been coding for over 10 years now since my high school. I am a passionate coder with 1.5 years of professional experience in design and development of websites and web applications. With the experience of working for a large corporation, a startup, and as a freelance web developer, I am armed with an extensive understanding of SDLC on various levels in JavaScript ecosystem with special focus on MERN stack.",
+    "bio": "Hi there! I am Hemant Kuruva. I've been coding for over 10 years now since my high school. Passionate coder with 2 years of professional experience in development of software, websites and SPAs. Armed with an extensive understanding of SDLC in JavaScript ecosystem (Vanilla & MERN) and Azure cloud. Master of Engineering in Electrical and Computer Engineering from Queen’s University, Kingston, ON.",
     "contactmessage": "Get in touch with me by filling this form!",
     "email": "111hemant111@gmail.com",
     "phone": "+1 (343) 333-9116",
@@ -15,7 +15,7 @@
       "state": "Ontario",
       "zip": "L5B 2K7"
     },
-    "website": "https://www.hemant.click",
+    "website": "http://www.hemant.click",
     "resumedownload": "latestResume.pdf",
     "social": [
       {
@@ -41,7 +41,6 @@
     ]
   },
   "resume": {
-    "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
         "school": "Queen's University, Kingston, ON, Canada",
@@ -57,18 +56,18 @@
     "work": [
       {
         "company": "CGI",
-        "title": "Software Developer",
+        "title": "Consultant (Software Developer)",
         "years": "Sep 2019 - Present",
         "description": [
           {
             "id": "1.",
             "projname": "Connected Retail 360",
-            "exp":"Developed software for an IoT solution “Connected Retail 360” aimed at bringing online shopping experience to physical stores based on Azure IoT Best Practices. Responsible for architecting the project, DPS, developing the React-based Web Dashboard, building C/C++ software for IoT devices and tracking the project"
+            "exp":"Developed software for an IoT solution “Connected Retail 360” aimed at bringing online shopping experience to physical stores based on Azure IoT Best Practices. Responsible for architecting the project, DPS, developing the React-based Web Dashboard, building C/C++ based software for IoT devices, writing Azure Functions, tracking the project &c."
           },
           {
             "id": "2.",
             "projname": "Performance Engineering Project for Black Friday for an eCommerce business",
-            "exp":"Worked on a Performance Engineering and Testing project for a major Canadian eCommerce Business. Responsible for developing jMeter scripts in Java based Groovy language, troubleshooting and monitoring project progress &c."
+            "exp":"Worked on a Performance Engineering and Testing project for a major Canadian eCommerce Business. Responsible for developing jMeter scripts in Groovy, troubleshooting and monitoring project progress &c."
           }
       ]
       },
@@ -80,7 +79,7 @@
           {
             "id": "",
             "projname": "",
-            "exp":"Worked as a Senior Developer as well as Front-End Developer for an NY-based startup, MC Master of Ceremony, aimed at developing a smartphone application/platform for artists to collaborate and compete. Worked in an Agile Environment in a pure startup culture with responsibilities involving code reviews through pull requests on CodeCommit, task assignments on Jira and documentation on Confluence, research on the technology trends &c. On the development side, my main contribution has been the development of Admin Dashboard part of the platform which was based on React hosted on AWS while I also got exposed to native app development on React Native as a code reviewe"
+            "exp":"Worked as a Senior Developer as well as Front-End Developer for an NY-based startup, MC Master of Ceremony, aimed at developing a smartphone application/platform for artists to collaborate and compete. Worked in an Agile Environment with responsibilities involving code reviews, project managamenet on Jira, writing documentation on Confluence, research on the technology trends, unit testing on Jest &c. On the development side, my main contribution has been the development of a React-based Admin Dashboard hosted on AWS. Also got exposed to native app development on React Native as a code reviewer and tester."
           }
       ]
       },
@@ -92,7 +91,7 @@
           {
             "id": "",
             "projname": "",
-            "exp":"Taught C/C++ to students of 12-17 age, programmed robots based on Arduino platform, developed games based on Python, OpenCV &c."
+            "exp":"Taught C/C++ to students of 12-17 age, programmed robots based on Arduino, Raspberry Pi platforms, developed games based on Python, OpenCV &c. Also taught 3D CAD on Autodesk Fusion 360 and 3D Printing."
           }
       ]
       }

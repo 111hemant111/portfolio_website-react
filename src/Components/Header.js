@@ -7,11 +7,11 @@ const Header = ({ data }) => {
     var occupation = data.occupation;
     var description = data.description;
     var additional = data.additional;
-    var city = data.address.city;
+    // var city = data.address.city;
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a target="_blank" href={network.url}>
+          <a target="_blank" rel="noreferrer" href={network.url}>
             <i className={network.className}></i>
           </a>
         </li>
@@ -74,7 +74,7 @@ const Header = ({ data }) => {
             <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
           </h1>
           <h3>
-            Based in GTA. <span>{occupation}</span>. {description}<br/><span id="additional_id">{additional}</span>
+            Based in Toronto, Canada. <span>{occupation}</span>. {description}<br/><span id="additional_id">{additional}</span>
           </h3>
           <hr />
           <ul className="social">{networks}</ul>

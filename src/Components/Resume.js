@@ -6,11 +6,10 @@ var freelance = () => {
       <h3>Remote Freelance Web Developer</h3>
       <p className="desig"> Freelance Developer</p>
       <div>
-        <p className="info">Currently working on a React-based Web Application called “Word Of Advice” for Health/Workout Assistance for a client - Based on MERN stack<br/>
-          Built websites for clients using Wordpress.org CMS, Javascript, jQuery, Bootstrap, MySQL DB and PHP Back-end. Client Wordpress.org websites built:<br/>
-          1. <a target="_blank" href="https://nacptpharmacollege.com">NACPT Pharma College</a> (<a target="_blank" href="https://v2.nacptpharmacollege.com/">v2</a> under development)<br/>
-          2. <a target="_blank" href="https://thelightinglamp.com">The Lighting Lamp</a><br/>
-          3. <a target="_blank" href="https://50hands.org">50Hands</a> and more.
+        <p className="info">Currently developing a React-based Web Application called “Word Of Advice” for Health/Workout Assistance for a Toronto-based client - Based on MERN stack. <br/>Built websites for clients using Wordpress.org CMS with SEO best practices. Client Wordpress websites built:<br/>
+          1. <a target="_blank" rel="noreferrer" href="https://nacptpharmacollege.com">NACPT Pharma College</a><br/>
+          2. <a target="_blank" rel="noreferrer" href="https://thelightinglamp.com">The Lighting Lamp</a><br/>
+          3. <a target="_blank" rel="noreferrer" href="https://50hands.org">50Hands</a> and more.
         </p>
       </div>
     </div>
@@ -19,7 +18,6 @@ var freelance = () => {
 
 const Resume = ({ data }) => {
   if (data) {
-    var skillmessage = data.skillmessage;
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -69,21 +67,21 @@ const Resume = ({ data }) => {
     // };
     // var freelance_work = set();
     
-    var skills = data.skills.map(function (skills) {
-      var className = "bar-expand " + skills.name.toLowerCase();
-      return (
-        <li key={skills.name}>
-          <span style={{ width: skills.level }} className={className}></span>
-          <em>{skills.name}</em>
-        </li>
-      );
-    });
+    // var skills = data.skills.map(function (skills) {
+    //   var className = "bar-expand " + skills.name.toLowerCase();
+    //   return (
+    //     <li key={skills.name}>
+    //       <span style={{ width: skills.level }} className={className}></span>
+    //       <em>{skills.name}</em>
+    //     </li>
+    //   );
+    // });
 
-    var skillsnew = data.skills.map(function (skills) {
-      return (
-        <button className="skillbuttons" key={skills.name}>{skills.name}</button>
-      );
-    });
+    // var skillsnew = data.skills.map(function (skills) {
+    //   return (
+    //     <button className="skillbuttons" key={skills.name}>{skills.name}</button>
+    //   );
+    // });
   }
 
   return (

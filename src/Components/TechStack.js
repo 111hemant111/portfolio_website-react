@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { ReactComponent as ReactLogo } from './svg/react.svg'
 import { ReactComponent as JavascriptLogo } from './svg/javascript.svg'
 import { ReactComponent as HTMLLogo } from './svg/html.svg'
@@ -51,7 +51,7 @@ const styles = {
 
 
 const TechStack = () => {  
-const [matches, setMatches] = useState(mobileSize.matches);
+const [matches] = useState(mobileSize.matches);
   // useEffect(() => {
   //   const handler = e => setMatches(e.matches);
   //   mobileSize.addListener(handler);
