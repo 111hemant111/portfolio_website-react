@@ -128,6 +128,12 @@
         "url": "https://github.com/111hemant111/portfolio_website-react"
       },
       {
+        "title": "Exercise Tracker",
+        "category": "React, Node.js, Express, MongoDB, Mongoose, JavaScript",
+        "image": "exercise_tracker.jpg",
+        "url": "https://github.com/111hemant111/exercise_tracker"
+      },
+      {
         "title": "Interactive Webform",
         "category": "JavaScript, jQuery",
         "image": "interactive_webform.jpg",
