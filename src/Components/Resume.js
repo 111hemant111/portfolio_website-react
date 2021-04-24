@@ -7,7 +7,7 @@ var freelance = () => {
       <p className="desig"> Freelance Developer</p>
       <div>
         <p className="info">Currently developing a React-based Web Application called “Word Of Advice” for Health/Workout Assistance for a Toronto-based client - Based on MERN stack. <br/>Built websites for clients using Wordpress.org CMS with SEO best practices. Client Wordpress websites built:<br/>
-          1. <a target="_blank" rel="noreferrer" href="https://nacptpharmacollege.com">NACPT Pharma College</a><br/>
+          1. <a target="_blank" rel="noreferrer" href="https://www.nacptpharmacollege.com">NACPT Pharma College</a><br/>
           2. <a target="_blank" rel="noreferrer" href="https://thelightinglamp.com">The Lighting Lamp</a><br/>
           3. <a target="_blank" rel="noreferrer" href="https://50hands.org">50Hands</a> and more.
         </p>

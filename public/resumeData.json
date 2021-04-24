@@ -61,11 +61,16 @@
         "description": [
           {
             "id": "1.",
+            "projname": "Front-end upgrade for a major eCommerce website",
+            "exp":"Currently working on a major eCommerce client’s website front-end upgrade project."
+          },
+          {
+            "id": "2.",
             "projname": "Connected Retail 360",
             "exp":"Developed software for an IoT solution “Connected Retail 360” aimed at bringing online shopping experience to physical stores based on Azure IoT Best Practices. Responsible for architecting the project, DPS, developing the React-based Web Dashboard, building C/C++ based software for IoT devices, writing Azure Functions, tracking the project &c."
           },
           {
-            "id": "2.",
+            "id": "3.",
             "projname": "Performance Engineering Project for Black Friday for an eCommerce business",
             "exp":"Worked on a Performance Engineering and Testing project for a major Canadian eCommerce Business. Responsible for developing jMeter scripts in Groovy, troubleshooting and monitoring project progress &c."
           }
