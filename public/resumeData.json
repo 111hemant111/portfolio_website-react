@@ -1,8 +1,8 @@
 {
   "main": {
     "name": "Hemant Kuruva",
-    "occupation": "Web Developer",
-    "description": "I eat, sleep and breathe JavaScript (...and its libraries and frameworks).",
+    "occupation": "Full Stack Developer",
+    "description": "I eat, sleep and breathe JavaScript (...and its libraries).",
     "additional": "And yes, I clicked that pic. --->",
     "image": "profilepic.JPG",
     "bio": "A passionate coder with 2 years of professional experience in development of software, websites and SPAs. Armed with an extensive understanding of SDLC in JavaScript ecosystem (Vanilla & MERN) and Azure cloud. Master of Engineering in Electrical and Computer Engineering from Queen’s University, Kingston, ON.",
@@ -55,9 +55,21 @@
     ],
     "work": [
       {
+        "company": "Symcor Inc.",
+        "title": "Full Stack Developer II",
+        "years": "Jul 2021 - Present",
+        "description": [
+          {
+            "id": "",
+            "projname": "",
+            "exp":""
+          }
+      ]
+      },
+      {
         "company": "CGI",
         "title": "Consultant (Software Developer)",
-        "years": "Sep 2019 - Present",
+        "years": "Sep 2019 - Jun 2021",
         "description": [
           {
             "id": "1.",
